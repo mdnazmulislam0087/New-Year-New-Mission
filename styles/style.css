@@ -179,3 +179,290 @@ header .container .banner_text h2{
     padding: 16px 32px;
     justify-content: center;
 }
+
+/* Coming soon */
+.commingsoon{
+    margin-top: 120px;
+}
+
+.commingsoon .comingsoonparent{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.commingsoon h4{
+    color: #F00;
+    text-align: Left;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.commingsoon h3{
+    text-align: Left;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.commingsoon p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+
+
+}
+.commingsoon .snd{
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.commingsoon img{
+    padding: 20px;
+}
+.commingsoon .trd{
+    align-items: end;
+    padding-left: 90px;
+}
+.commingsoon .trd h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.commingsoon .trd img{
+    max-width: 140px;
+    max-height: 140px;
+    align-self: auto;
+    margin-top: 15px;
+}
+/* portfolio */
+.portfolio .description {
+    margin-top: 140px;
+}
+.portfolio .description h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.portfolio .description h2{
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.portfolio .description p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-bottom: 15px;
+}
+
+
+.portfolio  img{
+    border-radius: 16px;
+    max-width: 100%; /* Set maximum width to 100% of the container */
+    max-height: 100%; /* Set maximum height to 100% of the container */
+}
+.portfolio .second_block{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+
+    
+}
+.portfolio .first_block{
+    display: flex;
+    gap:10px;
+    flex-direction: row;
+
+}
+
+.subscribe{
+    margin-top: 400px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.subscribe > .img61{
+    padding-top: 80px;
+    margin-bottom: 0px;
+}
+
+.subscribe h2{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    margin-top: 22px;
+}
+
+.subscribe .form-subscribe{
+    margin-top: 40px;
+    padding-bottom: 80px;
+
+}
+.subscribe input{
+    border-radius: 50px;
+    background: #FFF;
+    max-width: 648px;
+    max-height: 72px;
+    min-width: 30%;
+    min-height: 38px;
+    border:none
+}
+
+.subscribe button{
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border:none;
+    max-width: 648px;
+    max-height: 72px;
+    min-width: 12%;
+    min-height: 48px;
+    
+}
+.form-subscribe{
+    position: relative;
+}
+.item2, .item1 {
+    position: absolute;
+}
+
+.item1 {
+    z-index: 1;
+    left: 47.5%; /* Adjust as needed */
+    transform: translateX(-47.5%); 
+    /* Center the item horizontally */
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 5px;
+    border: none;
+}
+
+.item2 {
+    z-index: 2;
+    left: 58.45%; /* Adjust as needed */
+    transform: translateX(-58.45%); 
+    /* Center the item horizontally */
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+
+
+
+
+/* Footer */
+
+.socialmedia{
+    width:100%;
+    max-width: 1600px;
+    max-height: 609px;
+    background-color: #070211;
+    margin-top: 100x;
+}
+
+.socialmedia p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.socialmedia .row1, .row3{
+    display: flex;
+    justify-content:space-around;
+    padding-top: 120px;
+}
+
+.socialmedia .row2{
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 98px;
+}
+
+/* Sale */
+/* Sale container design */
+.sale{
+    margin-top: 150px;
+}
+.sale h6{
+color: #070211;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+
+.sale h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.sale h1 span{
+    color: #F00;
+}
+.sale p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+.sale .top{
+    display: flex;
+
+    height: 200px; /* Set a height for the container, adjust as needed */
+}
+
+.sale .model{
+    align-items: flex-end;
+}
