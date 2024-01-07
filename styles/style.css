@@ -1,6 +1,95 @@
 /* Universal selector to resize overall page */
+/* Total page width 1600 and 280 padding in both side, hence */
+/* 1600-(2*140) = 1320 */
+/* 1320/1600 = 82.5% */
+/* Font Import */
+/* Common CSS */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+</style>
+
 *{
     margin: 0;
     padding: 0;
-    background-color: aqua;
+    /* background-color: aqua; */
+}
+
+.container{
+    width:82.5%;
+    max-width: 1320px;
+    max-height: 600px;
+    margin:0 auto;
+}
+
+/* Header css */
+header .banner{
+    background-image: url("../resources/Banner\ Image.png");
+    border-radius: 16px;
+}
+
+header .container .banner_text{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+
+
+}
+header .container .banner_text h3{
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    padding-top: 177px;
+    margin-bottom: 0px;
+
+}
+header .container .banner_text h2{
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 95px; /* 131.944% */
+    max-width: 766px;
+    margin-top: 15px;
+    padding: 5px 5px 177px 5px;
+
+}
+
+/* Discount section */
+
+.discount{
+    text-align: center;
+    font-family: Inter;
+    margin-top: 120px;
+}
+
+.discount .titletext{
+
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.discount .more-title-text{
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+
+}
+.discount .more-more-title-text{
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+.discount img{
+    max-width: 661.9px;
+    max-height: 413px;
 }
