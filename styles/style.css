@@ -23,7 +23,9 @@
 
 /* Header css */
 header .banner{
+    
     background-image: url("../resources/Banner\ Image.png");
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%, url("../resources/Banner\ Image.png")); */
     border-radius: 16px;
 }
 
@@ -242,6 +244,10 @@ header .container .banner_text h2{
     margin-top: 15px;
 }
 /* portfolio */
+.portfolio{
+    margin-top:-350px;
+    padding-bottom: 180px;
+}
 .portfolio .description {
     margin-top: 140px;
 }
@@ -457,12 +463,42 @@ text-align: center;
     line-height: 32px; /* 160% */
 }
 
-.sale .top{
-    display: flex;
 
-    height: 200px; /* Set a height for the container, adjust as needed */
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
-.sale .model{
-    align-items: flex-end;
+.b {
+    margin-top: 50px;
+    margin-left: -100px; /* Adjust as needed */
+    padding-top: 600px;
+
+}
+
+.a {
+    z-index: 2; /* Ensure item2 is on top of item1 */
+    /* You can adjust the positioning as needed */
+   padding-top: 790px;
+}
+
+.bottom{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+    margin-bottom: 500px;
+    
+}
+
+.c{
+    margin-top: 0px;
+    margin-bottom: -200px;
+    z-index: 2; 
+}
+
+.saleimg{
+    margin-top: -550px;
+
 }
