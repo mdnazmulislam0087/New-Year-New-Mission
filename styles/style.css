@@ -513,3 +513,13 @@ text-align: center;
     margin-top: -550px;
 
 }
+
+hr {
+    border: none;
+    border-top: 2px dotted rgb(3, 3, 3);
+    color: #fff;
+    background-color: #111010;
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+  }
