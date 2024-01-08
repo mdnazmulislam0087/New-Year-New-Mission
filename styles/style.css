@@ -52,6 +52,7 @@ header .container .banner_text h2{
     line-height: 95px; /* 131.944% */
     max-width: 766px;
     margin-top: 15px;
+    margin-left: 250px;
     padding: 5px 5px 177px 5px;
 
 }
