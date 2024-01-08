@@ -101,9 +101,19 @@ header .container .banner_text h2{
     margin-top: 140px;
     background-image: url("../resources/Vectorrr.png");
     max-width: 1320px;
-    max-height: 600px;
-    padding-bottom: 142px;
+    padding-top: 60px;
+    /* padding-bottom: 142px; */
 }
+
+.midnight-party .extra{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+
+
 .midnight-party .partyheader{
     color: #FFF;
     font-family: Merriweather;
